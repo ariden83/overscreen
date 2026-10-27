@@ -2,7 +2,7 @@
 title: OverScreen — Privacy Policy
 ---
 
-# <img src="graphics/icon-96.png" alt="" width="56" height="56" style="vertical-align: bottom; margin-right: 10px;">OverScreen — Privacy Policy
+# <img src="graphics/icon-96.png" alt="" align="absbottom" width="56" height="56" style="vertical-align: bottom; margin-right: 10px;">OverScreen — Privacy Policy
 
 **Privacy policy** · [Terms of use](terms.md) · [FAQ](faq.md) · [Legal notice](legal.md) · [Version française](fr.md)
 
