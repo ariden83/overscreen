@@ -86,7 +86,7 @@ To preview locally (optional): `bundle exec jekyll serve` with the `github-pages
 These pages describe what the app actually does. When the app changes in a way they mention, update them in the same move. In particular:
 
 - **no Internet permission and no data collected**: if the app ever gets network access, analytics or ads, the privacy policy must be updated before that version is published;
-- **OverScreen Pro**: the purchase is not available yet; the FAQ and the store listing say so, and must be updated when it is switched on;
+- **OverScreen Pro**: the FAQ says the purchase is not available yet; update it (both languages) when the purchase is switched on in the published app;
 - **legal notice**: the publisher is currently an anonymous non-professional individual; once OverScreen Pro is sold, the publisher becomes a professional and the legal notice must give their real identity.
 
 ## Contact

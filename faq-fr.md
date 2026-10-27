@@ -42,7 +42,7 @@ C'est voulu : OverScreen n'agit jamais tant que le téléphone est verrouillé, 
 
 ## Que comprend la version gratuite ?
 
-La version gratuite permet d'utiliser 3 séquences, 3 repères et une liste par application, avec le lancement manuel, la surveillance et tous les modes de lecture. OverScreen Pro, un achat unique, lèvera ces limites et ajoutera les actions automatiques et la sauvegarde. L'achat n'est pas encore disponible.
+La version gratuite permet d'utiliser 3 séquences, 1 repère et une liste par application, avec le lancement manuel, la surveillance et tous les modes de lecture. OverScreen Pro, un achat unique, lèvera ces limites et ajoutera les actions automatiques et la sauvegarde. L'achat n'est pas encore disponible.
 
 ## Comment transférer mes séquences sur un nouveau téléphone ?
 

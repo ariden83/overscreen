@@ -42,7 +42,7 @@ By design: OverScreen never acts while the phone is locked, so that it cannot be
 
 ## What does the free version include?
 
-The free version lets you use 3 sequences, 3 markers and one list per app, with manual launch, watching and all play modes. OverScreen Pro, a single purchase, will lift these limits and add automatic actions and backup. The purchase is not available yet.
+The free version lets you use 3 sequences, 1 marker and one list per app, with manual launch, watching and all play modes. OverScreen Pro, a single purchase, will lift these limits and add automatic actions and backup. The purchase is not available yet.
 
 ## How do I move my sequences to a new phone?
 
