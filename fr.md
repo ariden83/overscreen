@@ -2,7 +2,7 @@
 title: OverScreen — Politique de confidentialité
 ---
 
-# OverScreen — Politique de confidentialité
+# <img src="graphics/icon-96.png" alt="" width="40" height="40" style="vertical-align: middle; margin-right: 8px;">OverScreen — Politique de confidentialité
 
 **Politique de confidentialité** · [Conditions d'utilisation](terms-fr.html) · [FAQ](faq-fr.html) · [Mentions légales](legal-fr.html) · [English version](./)
 

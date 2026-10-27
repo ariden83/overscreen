@@ -2,7 +2,7 @@
 title: OverScreen — Mentions légales
 ---
 
-# OverScreen — Mentions légales
+# <img src="graphics/icon-96.png" alt="" width="40" height="40" style="vertical-align: middle; margin-right: 8px;">OverScreen — Mentions légales
 
 [Politique de confidentialité](fr.html) · [Conditions d'utilisation](terms-fr.html) · [FAQ](faq-fr.html) · **Mentions légales** · [English version](legal.html)
 

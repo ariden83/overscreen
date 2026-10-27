@@ -2,7 +2,7 @@
 title: OverScreen — Terms of use
 ---
 
-# OverScreen — Terms of use
+# <img src="graphics/icon-96.png" alt="" width="40" height="40" style="vertical-align: middle; margin-right: 8px;">OverScreen — Terms of use
 
 [Privacy policy](./) · **Terms of use** · [FAQ](faq.html) · [Legal notice](legal.html) · [Version française](terms-fr.html)
 

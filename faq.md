@@ -2,7 +2,7 @@
 title: OverScreen — FAQ
 ---
 
-# OverScreen — Frequently asked questions
+# <img src="graphics/icon-96.png" alt="" width="40" height="40" style="vertical-align: middle; margin-right: 8px;">OverScreen — Frequently asked questions
 
 [Privacy policy](./) · [Terms of use](terms.html) · **FAQ** · [Legal notice](legal.html) · [Version française](faq-fr.html)
 
