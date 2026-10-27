@@ -23,6 +23,10 @@ These addresses are used outside this repository, so the files must keep their n
 - the **FAQ** and the **terms of use** are opened from the guide of the app;
 - the Play Store listing links to the privacy policy, the terms of use and the FAQ.
 
+## Ready-made configs
+
+`configs/` holds one backup file per app (`<package name>.json`), in the format of the export of OverScreen. To use one, download it and import it from the app: the import adds or replaces the items of that file only and leaves the configs of your other apps untouched. Note that the import also applies the "pause when leaving the app" setting stored in the file.
+
 ## Editing a page
 
 1. Edit the Markdown file. Pages are plain Markdown with a short front matter (`title:`); the [Primer](https://github.com/pages-themes/primer) theme set in `_config.yml` does the layout.
