@@ -2,7 +2,7 @@
 title: OverScreen — Terms of use
 ---
 
-# <img src="graphics/picto-title.png" alt="" align="absbottom" width="59" height="56" style="vertical-align: bottom; margin-right: 10px;">OverScreen — Terms of use
+# <img src="graphics/picto-title.png" alt="" align="absbottom" width="50" height="48" style="vertical-align: bottom;">&nbsp;&nbsp;&nbsp;OverScreen — Terms of use
 
 [Privacy policy](index.md) · **Terms of use** · [FAQ](faq.md) · [Legal notice](legal.md) · [Version française](terms-fr.md)
 

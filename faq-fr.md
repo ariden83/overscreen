@@ -2,7 +2,7 @@
 title: OverScreen — FAQ
 ---
 
-# <img src="graphics/picto-title.png" alt="" align="absbottom" width="59" height="56" style="vertical-align: bottom; margin-right: 10px;">OverScreen — Questions fréquentes
+# <img src="graphics/picto-title.png" alt="" align="absbottom" width="50" height="48" style="vertical-align: bottom;">&nbsp;&nbsp;&nbsp;OverScreen — Questions fréquentes
 
 [Politique de confidentialité](fr.md) · [Conditions d'utilisation](terms-fr.md) · **FAQ** · [Mentions légales](legal-fr.md) · [English version](faq.md)
 

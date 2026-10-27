@@ -2,7 +2,7 @@
 title: OverScreen — Mentions légales
 ---
 
-# <img src="graphics/picto-title.png" alt="" align="absbottom" width="59" height="56" style="vertical-align: bottom; margin-right: 10px;">OverScreen — Mentions légales
+# <img src="graphics/picto-title.png" alt="" align="absbottom" width="50" height="48" style="vertical-align: bottom;">&nbsp;&nbsp;&nbsp;OverScreen — Mentions légales
 
 [Politique de confidentialité](fr.md) · [Conditions d'utilisation](terms-fr.md) · [FAQ](faq-fr.md) · **Mentions légales** · [English version](legal.md)
 

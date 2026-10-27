@@ -2,7 +2,7 @@
 title: OverScreen — Legal notice
 ---
 
-# <img src="graphics/picto-title.png" alt="" align="absbottom" width="59" height="56" style="vertical-align: bottom; margin-right: 10px;">OverScreen — Legal notice
+# <img src="graphics/picto-title.png" alt="" align="absbottom" width="50" height="48" style="vertical-align: bottom;">&nbsp;&nbsp;&nbsp;OverScreen — Legal notice
 
 [Privacy policy](index.md) · [Terms of use](terms.md) · [FAQ](faq.md) · **Legal notice** · [Version française](legal-fr.md)
 
