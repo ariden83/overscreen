@@ -4,7 +4,7 @@ title: OverScreen — FAQ
 
 # <img src="graphics/icon-96.png" alt="" width="40" height="40" style="vertical-align: middle; margin-right: 8px;">OverScreen — Questions fréquentes
 
-[Politique de confidentialité](fr.html) · [Conditions d'utilisation](terms-fr.html) · **FAQ** · [Mentions légales](legal-fr.html) · [English version](faq.html)
+[Politique de confidentialité](fr.md) · [Conditions d'utilisation](terms-fr.md) · **FAQ** · [Mentions légales](legal-fr.md) · [English version](faq.md)
 
 ## Qu'est-ce qu'OverScreen ?
 
@@ -50,11 +50,11 @@ Avec la sauvegarde (fonction Pro) : en bas de l'écran principal d'OverScreen, *
 
 ## Puis-je utiliser OverScreen dans des jeux ?
 
-OverScreen fait ce que vous feriez vous-même, mais certaines applications et certains jeux interdisent l'automatisation dans leurs conditions d'utilisation. Vérifiez-les avant d'automatiser une application : vous êtes responsable de l'usage que vous faites d'OverScreen (voir les [conditions d'utilisation](terms-fr.html)).
+OverScreen fait ce que vous feriez vous-même, mais certaines applications et certains jeux interdisent l'automatisation dans leurs conditions d'utilisation. Vérifiez-les avant d'automatiser une application : vous êtes responsable de l'usage que vous faites d'OverScreen (voir les [conditions d'utilisation](terms-fr.md)).
 
 ## OverScreen collecte-t-il mes données ?
 
-Non. OverScreen n'a pas accès à Internet et ne collecte aucune donnée ; tout reste sur votre téléphone. Voir la [politique de confidentialité](fr.html).
+Non. OverScreen n'a pas accès à Internet et ne collecte aucune donnée ; tout reste sur votre téléphone. Voir la [politique de confidentialité](fr.md).
 
 ## Comment vous contacter ?
 

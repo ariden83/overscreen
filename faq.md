@@ -4,7 +4,7 @@ title: OverScreen — FAQ
 
 # <img src="graphics/icon-96.png" alt="" width="40" height="40" style="vertical-align: middle; margin-right: 8px;">OverScreen — Frequently asked questions
 
-[Privacy policy](./) · [Terms of use](terms.html) · **FAQ** · [Legal notice](legal.html) · [Version française](faq-fr.html)
+[Privacy policy](index.md) · [Terms of use](terms.md) · **FAQ** · [Legal notice](legal.md) · [Version française](faq-fr.md)
 
 ## What is OverScreen?
 
@@ -50,11 +50,11 @@ With backup (a Pro feature): at the bottom of OverScreen's main screen, **Export
 
 ## Can I use OverScreen in games?
 
-OverScreen does what you would do yourself, but some apps and games forbid automation in their terms of use. Check them before automating an app: you are responsible for how you use OverScreen (see the [terms of use](terms.html)).
+OverScreen does what you would do yourself, but some apps and games forbid automation in their terms of use. Check them before automating an app: you are responsible for how you use OverScreen (see the [terms of use](terms.md)).
 
 ## Does OverScreen collect my data?
 
-No. OverScreen has no Internet access and collects no data; everything stays on your phone. See the [privacy policy](./).
+No. OverScreen has no Internet access and collects no data; everything stays on your phone. See the [privacy policy](index.md).
 
 ## How can I contact you?
 

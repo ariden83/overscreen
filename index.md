@@ -4,7 +4,7 @@ title: OverScreen — Privacy Policy
 
 # <img src="graphics/icon-96.png" alt="" width="40" height="40" style="vertical-align: middle; margin-right: 8px;">OverScreen — Privacy Policy
 
-**Privacy policy** · [Terms of use](terms.html) · [FAQ](faq.html) · [Legal notice](legal.html) · [Version française](fr.html)
+**Privacy policy** · [Terms of use](terms.md) · [FAQ](faq.md) · [Legal notice](legal.md) · [Version française](fr.md)
 
 Effective date: October 7, 2026
 

@@ -4,7 +4,7 @@ title: OverScreen — Legal notice
 
 # <img src="graphics/icon-96.png" alt="" width="40" height="40" style="vertical-align: middle; margin-right: 8px;">OverScreen — Legal notice
 
-[Privacy policy](./) · [Terms of use](terms.html) · [FAQ](faq.html) · **Legal notice** · [Version française](legal-fr.html)
+[Privacy policy](index.md) · [Terms of use](terms.md) · [FAQ](faq.md) · **Legal notice** · [Version française](legal-fr.md)
 
 ## Publisher
 
@@ -28,4 +28,4 @@ The OverScreen app, its name, its texts and its images are the property of aride
 
 ## Personal data
 
-The OverScreen app collects no personal data: see the [privacy policy](./). This site sets no cookies and uses no analytics of its own; as host, GitHub may process technical data such as visitors' IP addresses, as described in the [GitHub Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement).
+The OverScreen app collects no personal data: see the [privacy policy](index.md). This site sets no cookies and uses no analytics of its own; as host, GitHub may process technical data such as visitors' IP addresses, as described in the [GitHub Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement).

@@ -4,7 +4,7 @@ title: OverScreen — Terms of use
 
 # <img src="graphics/icon-96.png" alt="" width="40" height="40" style="vertical-align: middle; margin-right: 8px;">OverScreen — Terms of use
 
-[Privacy policy](./) · **Terms of use** · [FAQ](faq.html) · [Legal notice](legal.html) · [Version française](terms-fr.html)
+[Privacy policy](index.md) · **Terms of use** · [FAQ](faq.md) · [Legal notice](legal.md) · [Version française](terms-fr.md)
 
 Effective date: October 7, 2026
 
@@ -24,7 +24,7 @@ The app replays gestures in other apps on your behalf. You are solely responsibl
 
 ## 3. Accessibility service
 
-The app works only if you enable its accessibility service yourself, after an in-app explanation. Its use is described in the [privacy policy](./). You can disable it at any time in your device's settings.
+The app works only if you enable its accessibility service yourself, after an in-app explanation. Its use is described in the [privacy policy](index.md). You can disable it at any time in your device's settings.
 
 ## 4. Free version and OverScreen Pro
 

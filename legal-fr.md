@@ -4,7 +4,7 @@ title: OverScreen — Mentions légales
 
 # <img src="graphics/icon-96.png" alt="" width="40" height="40" style="vertical-align: middle; margin-right: 8px;">OverScreen — Mentions légales
 
-[Politique de confidentialité](fr.html) · [Conditions d'utilisation](terms-fr.html) · [FAQ](faq-fr.html) · **Mentions légales** · [English version](legal.html)
+[Politique de confidentialité](fr.md) · [Conditions d'utilisation](terms-fr.md) · [FAQ](faq-fr.md) · **Mentions légales** · [English version](legal.md)
 
 ## Éditeur
 
@@ -28,4 +28,4 @@ L'application OverScreen, son nom, ses textes et ses images sont la propriété 
 
 ## Données personnelles
 
-L'application OverScreen ne collecte aucune donnée personnelle : voir la [politique de confidentialité](fr.html). Ce site ne dépose aucun cookie et n'utilise aucun outil de statistiques qui lui soit propre ; en tant qu'hébergeur, GitHub peut traiter des données techniques comme l'adresse IP des visiteurs, comme le décrit la [déclaration de confidentialité de GitHub](https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement).
+L'application OverScreen ne collecte aucune donnée personnelle : voir la [politique de confidentialité](fr.md). Ce site ne dépose aucun cookie et n'utilise aucun outil de statistiques qui lui soit propre ; en tant qu'hébergeur, GitHub peut traiter des données techniques comme l'adresse IP des visiteurs, comme le décrit la [déclaration de confidentialité de GitHub](https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement).

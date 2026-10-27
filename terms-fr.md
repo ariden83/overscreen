@@ -4,7 +4,7 @@ title: OverScreen — Conditions d'utilisation
 
 # <img src="graphics/icon-96.png" alt="" width="40" height="40" style="vertical-align: middle; margin-right: 8px;">OverScreen — Conditions d'utilisation
 
-[Politique de confidentialité](fr.html) · **Conditions d'utilisation** · [FAQ](faq-fr.html) · [Mentions légales](legal-fr.html) · [English version](terms.html)
+[Politique de confidentialité](fr.md) · **Conditions d'utilisation** · [FAQ](faq-fr.md) · [Mentions légales](legal-fr.md) · [English version](terms.md)
 
 Date d'entrée en vigueur : 7 octobre 2026
 
@@ -24,7 +24,7 @@ L'application rejoue des gestes dans d'autres applications à votre place. Vous 
 
 ## 3. Service d'accessibilité
 
-L'application ne fonctionne que si vous activez vous-même son service d'accessibilité, après une explication dans l'application. Son usage est décrit dans la [politique de confidentialité](fr.html). Vous pouvez le désactiver à tout moment dans les réglages de votre appareil.
+L'application ne fonctionne que si vous activez vous-même son service d'accessibilité, après une explication dans l'application. Son usage est décrit dans la [politique de confidentialité](fr.md). Vous pouvez le désactiver à tout moment dans les réglages de votre appareil.
 
 ## 4. Version gratuite et OverScreen Pro
 

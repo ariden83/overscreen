@@ -3,3 +3,9 @@ theme: jekyll-theme-primer
 # The README documents the repository; it is not a page of the site.
 exclude:
   - README.md
+# Links between pages point to the .md files, so they also work when the repository is browsed on GitHub.
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: false
