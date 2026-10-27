@@ -2,13 +2,13 @@
   <img src="graphics/feature-graphic-1024x500.png" alt="OverScreen: record your taps, replay them automatically" width="720">
 </p>
 
-# <img src="graphics/icon-96.png" alt="" width="56" height="56" align="absbottom"> OverScreen
+# <img src="graphics/picto-title.png" alt="" width="59" height="56" align="absbottom"> OverScreen
 
 **OverScreen** is an Android app by **ariden** that records your taps and swipes and replays them, on demand or automatically when a chosen area of the screen appears. It runs as a small floating panel over your other apps, through an accessibility service.
 
 <p align="center">
   <a href="https://play.google.com/store/apps/details?id=com.ariden.overload">
-    <img src="graphics/icon-512.png" alt="OverScreen icon" width="96"><br>
+    <img src="graphics/picto-192.png" alt="OverScreen icon" height="96"><br>
     <strong>Get OverScreen on Google Play</strong>
   </a>
 </p>
