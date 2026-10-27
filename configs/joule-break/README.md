@@ -5,7 +5,7 @@ OverScreen config for **Joule Break** (package `com.techneforge.joulebreak`).
 ## How to use
 
 1. Download [`config.json`](config.json) to your phone.
-2. In OverScreen, import it from the backup screen.
+2. In OverScreen, import it from the backup screen (backup is part of OverScreen Pro).
 
 The import adds or replaces only the items of this file. The configs of your other apps are left untouched. It also applies the "pause when leaving the app" setting stored in the file.
 

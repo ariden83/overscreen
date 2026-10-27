@@ -1,12 +1,61 @@
-# OverScreen — public pages
+<p align="center">
+  <img src="graphics/feature-graphic-1024x500.png" alt="OverScreen: record your taps, replay them automatically" width="720">
+</p>
 
-This repository holds the public web pages of **OverScreen**, an Android app by **ariden** that records your taps and swipes and replays them, on demand or when a chosen area of the screen appears.
+# OverScreen
 
-The pages are published with GitHub Pages at <https://ariden83.github.io/overscreen/>. The app's source code lives in a separate, private repository.
+**OverScreen** is an Android app by **ariden** that records your taps and swipes and replays them, on demand or automatically when a chosen area of the screen appears. It runs as a small floating panel over your other apps, through an accessibility service.
+
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.ariden.overload">
+    <img src="graphics/icon-512.png" alt="OverScreen icon" width="96"><br>
+    <strong>Get OverScreen on Google Play</strong>
+  </a>
+</p>
+
+## What it does
+
+- **Record and replay**: record a series of taps and swipes in an app, then replay it in one tap, in a loop, once, or once each time its marker appears.
+- **Markers**: pick any area of the screen, pixel-precise; when it appears, the linked sequence starts. A vertical and a colour tolerance keep it recognised when it moves or changes shade slightly.
+- **Sequence editor**: edit a sequence like a video, with a timeline of gestures.
+- **One set per app**: sequences and markers belong to the app they were created in.
+- **Private**: no Internet permission, no account, no data collected. Nothing runs while the phone is locked.
+- **14 languages**: English, French, Spanish, Hindi, Brazilian Portuguese, German, Russian, Japanese, Korean, Simplified and Traditional Chinese, Italian, Indonesian and Turkish.
+
+The free version offers 3 sequences, 1 marker and one list per app. **OverScreen Pro**, a single purchase, lifts these limits and adds sequence editing, automatic actions and backup (export and import).
+
+## Screenshots
+
+<p>
+  <img src="graphics/screenshot-1.png" alt="The floating panel over a game: record your taps, replay them in one tap" width="180">
+  <img src="graphics/screenshot-2.png" alt="Markers start your sequences when they appear" width="180">
+  <img src="graphics/screenshot-3.png" alt="Pick any area of the screen, pixel-precise" width="180">
+  <img src="graphics/screenshot-4.png" alt="Edit your sequences like a video" width="180">
+  <img src="graphics/screenshot-5.png" alt="Three play modes: loop, once, or on each appearance" width="180">
+  <img src="graphics/screenshot-6.png" alt="A built-in guide to get started" width="180">
+</p>
+
+## Ready-made configs
+
+`configs/` holds one folder per app, with its backup file (`config.json`) and a README. To use one, download it and import it from OverScreen (backup is part of OverScreen Pro). The import adds or replaces the items of that file only and leaves the configs of your other apps untouched. It also applies the "pause when leaving the app" setting stored in the file.
+
+| App | Config |
+|---|---|
+| Cinderfall | [`configs/cinderfall`](configs/cinderfall) |
+| Joule Break | [`configs/joule-break`](configs/joule-break) |
+| Pokemon GO | [`configs/pokemon-go`](configs/pokemon-go) |
+| Rabbit Universe | [`configs/rabbit-universe`](configs/rabbit-universe) |
+| Real Zombie War | [`configs/real-zombie-war`](configs/real-zombie-war) |
+| Skyline Stack | [`configs/skyline-stack`](configs/skyline-stack) |
+| TikTok | [`configs/tiktok`](configs/tiktok) |
+
+## Source code
+
+This repository holds the public pages and the ready-made configs. The app's source code lives in a separate, private repository.
 
 ## Pages
 
-Every page exists in English and in French, and each one links to all the others and to its translation.
+The pages are published with GitHub Pages at <https://ariden83.github.io/overscreen/>. Every page exists in English and in French, and each one links to all the others and to its translation.
 
 | Page | English | French |
 |---|---|---|
@@ -22,10 +71,6 @@ These addresses are used outside this repository, so the files must keep their n
 - the **privacy policy** (`/` and `fr.html`) is the privacy policy URL of the Google Play listing, and the app opens it from its consent screen;
 - the **FAQ** and the **terms of use** are opened from the guide of the app;
 - the Play Store listing links to the privacy policy, the terms of use and the FAQ.
-
-## Ready-made configs
-
-`configs/` holds one folder per app, with its backup file (`config.json`) and a README, in the format of the export of OverScreen. To use one, download it and import it from the app: the import adds or replaces the items of that file only and leaves the configs of your other apps untouched. Note that the import also applies the "pause when leaving the app" setting stored in the file.
 
 ## Editing a page
 
