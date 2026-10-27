@@ -2,7 +2,7 @@
 title: OverScreen — Conditions d'utilisation
 ---
 
-# <img src="graphics/icon-96.png" alt="" width="40" height="40" style="vertical-align: middle; margin-right: 8px;">OverScreen — Conditions d'utilisation
+# <img src="graphics/icon-96.png" alt="" width="56" height="56" style="vertical-align: bottom; margin-right: 10px;">OverScreen — Conditions d'utilisation
 
 [Politique de confidentialité](fr.md) · **Conditions d'utilisation** · [FAQ](faq-fr.md) · [Mentions légales](legal-fr.md) · [English version](terms.md)
 
