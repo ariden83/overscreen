@@ -1,0 +1,208 @@
+<html lang="en"><head><style>body{margin:0}</style><script>(function(){function n(a){try{window.parent.postMessage(JSON.stringify({type:"pointerlock",active:a}),"*")}catch(e){}}document.addEventListener("pointerlockchange",function(){n(document.pointerLockElement!==null)});document.addEventListener("pointerlockerror",function(){n(false)});})();</script><script>(function(){function s(l,m){try{window.parent.postMessage(JSON.stringify({type:"console_message",level:l,message:String(m)}),"*")}catch(e){}}var _l=console.log,_w=console.warn,_e=console.error;try{Object.defineProperty(console,"log",{value:function(){s("log",Array.from(arguments).join(" "));return _l.apply(console,arguments)},writable:false,configurable:false});Object.defineProperty(console,"warn",{value:function(){s("warn",Array.from(arguments).join(" "));return _w.apply(console,arguments)},writable:false,configurable:false});Object.defineProperty(console,"error",{value:function(){s("error",Array.from(arguments).join(" "));return _e.apply(console,arguments)},writable:false,configurable:false});}catch(e){console.log=function(){s("log",Array.from(arguments).join(" "));return _l.apply(console,arguments)};console.warn=function(){s("warn",Array.from(arguments).join(" "));return _w.apply(console,arguments)};console.error=function(){s("error",Array.from(arguments).join(" "));return _e.apply(console,arguments)};}window.onerror=function(m){s("error",m)};})();</script>
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="ad.size" content="width=320,height=480">
+<title>OverScreen — HTML5 Playable Ad</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin:0; width:100%; height:100%; overflow:hidden; font-family:Arial,Helvetica,sans-serif; }
+  body { background:#07111f; color:#f7fbff; }
+  #ad { position:relative; width:320px; height:480px; overflow:hidden; background:
+    radial-gradient(ellipse at 50% 30%, rgba(30,110,180,.28), transparent 55%),
+    linear-gradient(160deg,#0b1c31 0%,#07111f 65%,#030811 100%); }
+  .glow { position:absolute; width:240px; height:240px; border-radius:50%; background:#00d4ff; filter:blur(80px); opacity:.11; left:40px; top:70px; }
+  .top { position:absolute; left:14px; right:14px; top:12px; display:flex; align-items:center; gap:8px; z-index:2; }
+  .logo { width:28px; height:28px; border-radius:8px; overflow:hidden; flex-shrink:0; box-shadow:0 0 12px #23b8ef44; }
+  .logo img { width:100%; height:100%; object-fit:cover; display:block; }
+  .brand { font-size:14px; font-weight:800; letter-spacing:.2px; }
+  .tag { margin-left:auto; font-size:8px; letter-spacing:1.1px; color:#7feaff; border:1px solid #2a6078; padding:3px 6px; border-radius:14px; }
+  h1 { position:absolute; top:52px; left:14px; right:14px; margin:0; text-align:center; font-size:20px; line-height:1.2; letter-spacing:-.4px; z-index:2; }
+  h1 span { color:#54e5ff; }
+  #demo { position:absolute; left:14px; top:112px; width:292px; height:278px; border:1px solid #31516c; border-radius:14px; background:#0a1727; box-shadow:0 10px 28px #0008, inset 0 1px #ffffff0b; overflow:hidden; }
+  .demo-head { position:absolute; top:0; left:0; right:0; height:24px; display:flex; align-items:center; justify-content:space-between; padding:0 10px; font-size:8px; color:#9cb4c8; letter-spacing:.5px; background:linear-gradient(180deg,#122941ee,#0a1727cc); z-index:3; border-radius:14px 14px 0 0; }
+  .screen { position:absolute; inset:24px 0 0 0; overflow:hidden; cursor:pointer; }
+  .screen img { width:100%; height:100%; object-fit:cover; object-position:center bottom; display:block; pointer-events:none; }
+  .tap { position:absolute; width:34px; height:34px; border:2px solid #fff; border-radius:50%; transform:translate(-50%,-50%) scale(.25); opacity:0; pointer-events:none; z-index:4; box-shadow:0 0 12px #53e8ffaa; }
+  .tap.show { animation:tap .5s ease-out; }
+  @keyframes tap { 0%{opacity:.95;transform:translate(-50%,-50%) scale(.25)} 100%{opacity:0;transform:translate(-50%,-50%) scale(1.8)} }
+  #instruction { position:absolute; top:400px; left:14px; right:14px; text-align:center; font-size:11px; color:#d4e4f2; }
+  #buttons { position:absolute; left:14px; right:14px; top:424px; display:flex; gap:8px; }
+  #action { height:36px; border:0; border-radius:10px; background:linear-gradient(90deg,#42e5ff,#69a7ff); color:#04111e; font-weight:800; font-size:12px; box-shadow:0 4px 14px #22bde544; cursor:pointer; flex:1; display:flex; align-items:center; justify-content:center; gap:7px; }
+  #action:active { transform:scale(.98); }
+  #action.play { background:linear-gradient(90deg,#5dff9a,#2ecc71); box-shadow:0 4px 14px #2ecc7144; }
+  #action.play .rec-dot { display:none; }
+  #action .rec-dot { width:10px; height:10px; border-radius:50%; background:#e53935; flex-shrink:0; box-shadow:0 0 0 1.5px #fff6; }
+  #action.recording .rec-dot { animation: recBlink 1s ease-in-out infinite; }
+  @keyframes recBlink {
+    0%, 100% { opacity:1; box-shadow:0 0 0 1.5px #fff6, 0 0 6px #e53935aa; }
+    50% { opacity:.25; box-shadow:0 0 0 1.5px #fff3; }
+  }
+  #download { display:none; height:36px; border:0; border-radius:10px; background:linear-gradient(90deg,#42e5ff,#69a7ff); color:#04111e; font-weight:800; font-size:12px; box-shadow:0 4px 14px #22bde544; cursor:pointer; flex:1; }
+  #download:active { transform:scale(.98); }
+  #buttons.two #action { flex:1; }
+  #buttons.two #download { display:block; flex:1; }
+  .recording .screen { box-shadow: inset 0 0 0 2px #42e5ff88; }
+</style>
+</head>
+<body>
+<div id="ad" role="application" aria-label="OverScreen interactive ad">
+  <div class="glow"></div>
+  <div class="top">
+    <div class="logo"><img src="https://github.com/ariden83/overscreen/tree/main/html5/logo.png" alt="OverScreen"></div>
+    <div class="brand">OverScreen</div>
+    <div class="tag">AUTO TAP</div>
+  </div>
+  <h1>Record your actions.<br><span>Replay them auto.</span></h1>
+  <div id="demo" class="">
+    <div class="demo-head"><span>GAME PREVIEW</span><span id="counter">3 / 3</span></div>
+    <div class="screen" id="screen">
+      <img src="https://github.com/ariden83/overscreen/tree/main/html5/game_ui.png" alt="Mobile game screen" draggable="false">
+      <div class="tap show" id="ripple" style="left: 215px; top: 92px;"></div>
+    </div>
+  </div>
+  <div id="instruction">Sequence ready to automate</div>
+  <div id="buttons" class="two">
+    <button id="action" type="button" class="play" style="display: flex;"><span class="rec-dot"></span><span class="btn-label">PLAY again</span></button>
+    <button id="download" type="button" style="display: block;">Download OverScreen</button>
+  </div>
+</div>
+<script>
+  // IMPORTANT: Replace this placeholder with the exact Play Store listing URL.
+  // Google Ads HTML5 click-through uses clickTag.
+  var clickTag = "https://play.google.com/store/apps/details?id=com.ariden.overload&hl=en";
+
+  var ad = document.getElementById("ad");
+  var screen = document.getElementById("screen");
+  var counter = document.getElementById("counter");
+  var instruction = document.getElementById("instruction");
+  var action = document.getElementById("action");
+  var downloadBtn = document.getElementById("download");
+  var buttons = document.getElementById("buttons");
+  var ripple = document.getElementById("ripple");
+  var demo = document.getElementById("demo");
+  var btnLabel = action.querySelector(".btn-label");
+
+  var count = 0;
+  var started = false;
+  var completed = false;
+  var sequence = [];
+  var isReplaying = false;
+
+  function pulseAt(relX, relY) {
+    var w = screen.offsetWidth;
+    var h = screen.offsetHeight;
+    ripple.style.left = (relX * w) + "px";
+    ripple.style.top = (relY * h) + "px";
+    ripple.classList.remove("show");
+    void ripple.offsetWidth;
+    ripple.classList.add("show");
+  }
+
+  function reset() {
+    count = 0;
+    started = false;
+    completed = false;
+    isReplaying = false;
+    sequence = [];
+    counter.textContent = "0 / 3";
+    instruction.textContent = "Ready to automate your taps?";
+    btnLabel.textContent = "Record your clicks";
+    action.classList.remove("play", "recording");
+    action.style.display = "flex";
+    downloadBtn.style.display = "none";
+    buttons.classList.remove("two");
+    demo.classList.remove("recording");
+  }
+
+  function begin() {
+    if (completed) {
+      playSequence();
+      return;
+    }
+    if (started) return;
+    started = true;
+    demo.classList.add("recording");
+    action.classList.add("recording");
+    instruction.textContent = "Tap the controls as if you were playing";
+    btnLabel.textContent = "Recording…";
+  }
+
+  function playSequence() {
+    if (isReplaying || sequence.length === 0) return;
+    isReplaying = true;
+    action.style.display = "none";
+    downloadBtn.style.display = "none";
+    buttons.classList.remove("two");
+    action.classList.remove("recording");
+    instruction.textContent = "Watch your recorded taps";
+    var i = 0;
+    function next() {
+      if (i >= sequence.length) {
+        isReplaying = false;
+        instruction.textContent = "Sequence ready to automate";
+        btnLabel.textContent = "PLAY again";
+        action.classList.add("play");
+        action.classList.remove("recording");
+        action.style.display = "flex";
+        downloadBtn.style.display = "block";
+        buttons.classList.add("two");
+        return;
+      }
+      var p = sequence[i];
+      pulseAt(p.x, p.y);
+      i++;
+      setTimeout(next, 480);
+    }
+    next();
+  }
+
+  screen.addEventListener("click", function(e) {
+    if (!started && !completed && !isReplaying) {
+      begin();
+    }
+    if (!started || completed || isReplaying) return;
+    var rect = screen.getBoundingClientRect();
+    var x = (e.clientX - rect.left) / rect.width;
+    var y = (e.clientY - rect.top) / rect.height;
+    x = Math.max(0, Math.min(1, x));
+    y = Math.max(0, Math.min(1, y));
+    sequence.push({x: x, y: y});
+    pulseAt(x, y);
+    count++;
+    counter.textContent = count + " / 3";
+    if (count === 3) {
+      completed = true;
+      demo.classList.remove("recording");
+      action.classList.remove("recording");
+      instruction.textContent = "Your taps are ready to replay";
+      btnLabel.textContent = "PLAY";
+      action.classList.add("play");
+      action.style.display = "flex";
+      downloadBtn.style.display = "none";
+      buttons.classList.remove("two");
+    } else {
+      instruction.textContent = "Action " + count + " recorded — " + (3 - count) + " left";
+    }
+  });
+
+  action.addEventListener("click", function() {
+    if (completed) {
+      playSequence();
+    } else {
+      begin();
+    }
+  });
+
+  function goToStore() { window.open(clickTag, "_blank"); }
+  downloadBtn.addEventListener("click", goToStore);
+  ad.addEventListener("click", function(e) {
+    if (e.target === ad || e.target.classList.contains("glow")) goToStore();
+  });
+
+  reset();
+</script>
+
+
+<style>html::-webkit-scrollbar,body::-webkit-scrollbar{display:none}::-webkit-scrollbar{width:8px;height:8px}::-webkit-scrollbar-track,::-webkit-scrollbar-corner{background:transparent}::-webkit-scrollbar-thumb{background:rgba(128,128,128,0.5);border-radius:8px}::-webkit-scrollbar-thumb:hover{background:rgba(128,128,128,0.7)}@supports not selector(::-webkit-scrollbar){html{scrollbar-width:none}*{scrollbar-width:thin;scrollbar-color:rgba(128,128,128,0.5) transparent}}</style></body></html>
