@@ -73,3 +73,7 @@ Si cette politique change, la nouvelle version sera publiée sur cette page avec
 ## 10. Contact
 
 Pour toute question sur cette politique ou sur l'application : **ariden.apps@gmail.com**
+
+## Vu sur
+
+# <a href="https://www.nxgntools.com/tools/overscreen-auto-tap-recorder?utm_source=overscreen-auto-tap-recorder" target="_blank" rel="noopener" style="display: inline-block; width: auto;"><img src="https://www.nxgntools.com/api/embed/overscreen-auto-tap-recorder?type=FEATURED_ON" alt="Featured on NxGn Tools" style="height: 48px; width: auto;" /></a>
