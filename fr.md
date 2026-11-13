@@ -2,6 +2,10 @@
 title: OverScreen — Politique de confidentialité
 ---
 
+<p align="center">
+  <img src="graphics/feature-graphic-1024x500.png" alt="OverScreen : enregistrez vos touchers, rejouez-les automatiquement" width="720">
+</p>
+
 # <img src="graphics/picto-title.png" alt="" align="absbottom" width="50" height="48" style="vertical-align: bottom;">&nbsp;&nbsp;&nbsp;OverScreen — Politique de confidentialité
 
 **Politique de confidentialité** · [Conditions d'utilisation](terms-fr.md) · [FAQ](faq-fr.md) · [Mentions légales](legal-fr.md) · [English version](index.md)
@@ -11,6 +15,13 @@ Date d'entrée en vigueur : 7 octobre 2026
 OverScreen (« l'application ») est publiée par **ariden** (« nous »). Cette politique explique à quelles informations l'application accède, comment elle les utilise et où elles sont conservées.
 
 **En bref : OverScreen ne collecte, ne transmet et ne partage aucune donnée personnelle. Tout reste sur votre appareil.**
+
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.ariden.overload&hl=fr">
+    <img src="graphics/picto-192.png" alt="Icône d'OverScreen" height="96"><br>
+    <strong>Télécharger OverScreen sur Google Play</strong>
+  </a>
+</p>
 
 ## 1. Aucune donnée ne quitte votre appareil
 
@@ -73,6 +84,17 @@ Si cette politique change, la nouvelle version sera publiée sur cette page avec
 ## 10. Contact
 
 Pour toute question sur cette politique ou sur l'application : **ariden.apps@gmail.com**
+
+## Captures d'écran
+
+<p>
+  <img src="graphics/screenshot-1.png" alt="Le panneau flottant au-dessus d'un jeu : enregistrez vos touchers, rejouez-les en un geste" width="180">
+  <img src="graphics/screenshot-2.png" alt="Les repères lancent vos séquences quand ils apparaissent" width="180">
+  <img src="graphics/screenshot-3.png" alt="Choisissez n'importe quelle zone de l'écran, au pixel près" width="180">
+  <img src="graphics/screenshot-4.png" alt="Modifiez vos séquences comme une vidéo" width="180">
+  <img src="graphics/screenshot-5.png" alt="Trois modes de lecture : en boucle, une fois, ou à chaque apparition" width="180">
+  <img src="graphics/screenshot-6.png" alt="Un guide intégré pour bien démarrer" width="180">
+</p>
 
 ## Vu sur
 

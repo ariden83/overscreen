@@ -2,6 +2,10 @@
 title: OverScreen — Privacy Policy
 ---
 
+<p align="center">
+  <img src="graphics/feature-graphic-1024x500.png" alt="OverScreen: record your taps, replay them automatically" width="720">
+</p>
+
 # <img src="graphics/picto-title.png" alt="" align="absbottom" width="50" height="48" style="vertical-align: bottom;">&nbsp;&nbsp;&nbsp;OverScreen — Privacy Policy
 
 **Privacy policy** · [Terms of use](terms.md) · [FAQ](faq.md) · [Legal notice](legal.md) · [Version française](fr.md)
@@ -11,6 +15,13 @@ Effective date: October 7, 2026
 OverScreen ("the app") is published by **ariden** ("we"). This policy explains what information the app accesses, how it is used and where it is kept.
 
 **In short: OverScreen does not collect, transmit or share any personal data. Everything stays on your device.**
+
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.ariden.overload">
+    <img src="graphics/picto-192.png" alt="OverScreen icon" height="96"><br>
+    <strong>Get OverScreen on Google Play</strong>
+  </a>
+</p>
 
 ## 1. No data leaves your device
 
@@ -73,6 +84,17 @@ If this policy changes, the new version will be published on this page with a ne
 ## 10. Contact
 
 For any question about this policy or the app: **ariden.apps@gmail.com**
+
+## Screenshots
+
+<p>
+  <img src="graphics/screenshot-1.png" alt="The floating panel over a game: record your taps, replay them in one tap" width="180">
+  <img src="graphics/screenshot-2.png" alt="Markers start your sequences when they appear" width="180">
+  <img src="graphics/screenshot-3.png" alt="Pick any area of the screen, pixel-precise" width="180">
+  <img src="graphics/screenshot-4.png" alt="Edit your sequences like a video" width="180">
+  <img src="graphics/screenshot-5.png" alt="Three play modes: loop, once, or on each appearance" width="180">
+  <img src="graphics/screenshot-6.png" alt="A built-in guide to get started" width="180">
+</p>
 
 ## As Seen On
 
