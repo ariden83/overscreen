@@ -36,13 +36,29 @@ Un repère est une petite zone de l'écran qu'OverScreen surveille ; quand elle 
 - le repère doit être coché (onglet Repères, puis **Lancer**), ou faire partie d'une liste cochée dans **Actions suivies** ;
 - le bouton d'arrêt recouvre peut-être le repère : déplacez-le en le faisant glisser.
 
+## Comment obtenir des suggestions de repères ?
+
+Quand vous créez un repère, cochez une case sur la carte de visée en haut de l'écran. Dans une application, **Détecter les éléments cliquables** entoure les éléments que l'application décrit à Android. Dans un jeu, qui ne décrit rien, deux cases sont proposées, et une seule peut être cochée : **Détecter les textes** lit le texte affiché, et **Détecter les éléments cliquables** lance une analyse d'image par IA (OverScreen Pro). Touchez un carré pour le cocher, puis créez son repère. La version gratuite crée un repère suggéré à la fois ; Pro en crée plusieurs d'un coup.
+
+## Pourquoi l'analyse d'image prend-elle environ une minute et demande-t-elle 5 Go de RAM ?
+
+L'analyse d'image tourne entièrement sur votre téléphone, hors ligne, avec un modèle inclus dans l'application : elle prend environ une minute sur un téléphone de milieu de gamme et demande beaucoup de mémoire, c'est pourquoi elle n'est proposée que sur les téléphones d'au moins 5 Go de RAM. Vous pouvez continuer à viser à la main pendant ce temps. **Détecter les textes** est bien plus rapide et fonctionne sur tous les téléphones.
+
+## Que signifient les petits badges sur les vignettes des repères ?
+
+Ils indiquent comment un repère est reconnu. Un repère de texte est reconnu par son texte, et un repère d'élément cliquable par l'élément de l'application à son emplacement ; pour eux, la vignette n'est qu'indicative. Les repères sans badge sont reconnus par leurs pixels.
+
+## L'IA ou la reconnaissance de texte envoient-elles quelque chose ?
+
+Non. Les deux tournent sur votre téléphone, avec des modèles inclus dans l'application, et OverScreen n'a pas accès à Internet. Les captures d'écran sont analysées sur le téléphone puis supprimées.
+
 ## Pourquoi rien ne se passe sur l'écran de verrouillage ?
 
 C'est voulu : OverScreen n'agit jamais tant que le téléphone est verrouillé, pour qu'il ne puisse pas servir à contourner l'écran de verrouillage. Tout reprend après le déverrouillage.
 
 ## Que comprend la version gratuite ?
 
-La version gratuite permet d'utiliser 3 séquences, 1 repère et une liste par application, avec le lancement manuel, la surveillance et tous les modes de lecture. OverScreen Pro, un achat unique, lèvera ces limites et ajoutera les actions automatiques et la sauvegarde. L'achat n'est pas encore disponible.
+La version gratuite permet d'utiliser 3 séquences, 1 repère et une liste par application, avec le lancement manuel, la surveillance, tous les modes de lecture et les suggestions de repères (éléments cliquables d'une application, textes d'un jeu), un repère à la fois. OverScreen Pro, un achat unique disponible via Google Play, lève ces limites et ajoute l'édition des séquences, les actions automatiques, la sauvegarde, l'analyse d'image par IA des jeux et la création de plusieurs repères suggérés d'un coup.
 
 ## Comment transférer mes séquences sur un nouveau téléphone ?
 

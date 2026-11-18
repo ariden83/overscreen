@@ -17,12 +17,14 @@
 
 - **Record and replay**: record a series of taps and swipes in an app, then replay it in one tap, in a loop, once, or once each time its marker appears.
 - **Markers**: pick any area of the screen, pixel-precise; when it appears, the linked sequence starts. A vertical and a colour tolerance keep it recognised when it moves or changes shade slightly.
+- **Marker suggestions**: when you create a marker, OverScreen can suggest the items to watch. In apps that describe their screen to Android accessibility, it reads their clickable items; in games, **Detect texts** reads the text on the screen with on-device text recognition, and **Detect clickable items** runs an on-device AI image analysis (Pro, about a minute, phones with at least 5 GB of RAM). Both run offline, with models bundled in the app.
+- **Three kinds of markers**: image markers are recognised by their pixels, clickable-item markers by the item's id or text at their place, text markers by their text, read again on the screen; a badge on the thumbnail shows the last two.
 - **Sequence editor**: edit a sequence like a video, with a timeline of gestures.
 - **One set per app**: sequences and markers belong to the app they were created in.
 - **Private**: no Internet permission, no account, no data collected. Nothing runs while the phone is locked.
 - **14 languages**: English, French, Spanish, Hindi, Brazilian Portuguese, German, Russian, Japanese, Korean, Simplified and Traditional Chinese, Italian, Indonesian and Turkish.
 
-The free version offers 3 sequences, 1 marker and one list per app. **OverScreen Pro**, a single purchase, lifts these limits and adds sequence editing, automatic actions and backup (export and import).
+The free version offers 3 sequences, 1 marker and one list per app, and creates suggested markers one at a time. **OverScreen Pro**, a one-time purchase through Google Play, lifts these limits and adds sequence editing, automatic actions, backup (export and import), the AI image analysis of games and several suggested markers at once.
 
 ## Screenshots
 
@@ -86,7 +88,7 @@ To preview locally (optional): `bundle exec jekyll serve` with the `github-pages
 These pages describe what the app actually does. When the app changes in a way they mention, update them in the same move. In particular:
 
 - **no Internet permission and no data collected**: if the app ever gets network access, analytics or ads, the privacy policy must be updated before that version is published;
-- **OverScreen Pro**: the FAQ says the purchase is not available yet; update it (both languages) when the purchase is switched on in the published app;
+- **on-device analysis**: the privacy policy and the FAQ say that text recognition and image analysis run entirely on the device, with models bundled in the app and no network, and that their screenshots are discarded; if a model is ever downloaded, or an analysis ever leaves the device, update them (both languages) before that version is published;
 - **legal notice**: the publisher is currently an anonymous non-professional individual; once OverScreen Pro is sold, the publisher becomes a professional and the legal notice must give their real identity.
 
 ## Contact

@@ -10,7 +10,7 @@ title: OverScreen — Privacy Policy
 
 **Privacy policy** · [Terms of use](terms.md) · [FAQ](faq.md) · [Legal notice](legal.md) · [Version française](fr.md)
 
-Effective date: October 7, 2026
+Effective date: November 18, 2026
 
 OverScreen ("the app") is published by **ariden** ("we"). This policy explains what information the app accesses, how it is used and where it is kept.
 
@@ -29,6 +29,8 @@ The app does not request the Internet permission and has no network access. It c
 
 The app includes Google Play's billing library, used only for the optional purchase described in section 5. Because the app has no network permission, this library cannot send any data from the app itself.
 
+The app also includes Google's ML Kit text recognition library and an image detection model, both with their models bundled in the app, used only for the marker suggestions described in section 2. They run entirely on your device, download nothing and, for the same reason, cannot send anything.
+
 We, the publisher, receive no data from the app and have no access to anything stored on your device.
 
 ## 2. Accessibility service
@@ -36,8 +38,15 @@ We, the publisher, receive no data from the app and have no access to anything s
 OverScreen provides an accessibility service. It is used only for the features you trigger yourself:
 
 - **Recording and replaying gestures**: while you record a sequence, the app captures the taps and swipes you perform on its recording layer, then replays them on screen when you ask it to.
-- **Watching on-screen markers**: when you start watching, the app takes screenshots of the current screen at regular intervals and compares a few small areas (the "markers" you defined) with their saved appearance, in order to start the associated sequence. Screenshots are analysed in memory and discarded immediately; they are never saved or sent anywhere.
-- **Knowing the foreground app**: the service reads the package name of the app currently in the foreground, so that sequences and markers apply only to the app they belong to. It does not read the text or other content of your apps.
+- **Suggesting markers**: when you create a new marker, the app can suggest the items to watch on the current screen.
+  - In apps that describe their screen to Android accessibility, the service reads the clickable items shown on the screen: their position, their Android id and their text. They are offered when you tick **Detect clickable items**.
+  - In games, which do not describe their screen, the app takes a screenshot and, depending on the box ticked (the last choice is remembered): **Detect texts** reads the text shown on it with on-device text recognition; **Detect clickable items** (OverScreen Pro) analyses it with an on-device image detection model, run in a separate process of the app.
+- **Watching on-screen markers**: when you start watching, the app checks your markers at regular intervals, in order to start the associated sequence. Image markers are compared with their saved appearance on screenshots of the current screen. Markers made from a clickable item are recognised by reading, through the accessibility service, the item with the same id or text at their place, without any screenshot. Text markers are recognised by reading again, with on-device text recognition, the text in their area of a screenshot.
+- **Knowing the foreground app**: the service reads the package name of the app currently in the foreground, so that sequences and markers apply only to the app they belong to.
+
+Outside these cases, the service does not read the text or other content of your apps. Text recognition and image analysis run entirely on your device, with models bundled in the app, and never use the network.
+
+Screenshots, whether used for suggestions or for watching, are analysed in memory and discarded immediately; they are never kept or sent anywhere. The only exception is the image analysis: its screenshot is briefly written to the app's private cache, to pass it to the analysis process, and deleted once the analysis is over.
 
 The accessibility service is only active once you have enabled it yourself in your device's accessibility settings, and you can disable it at any time there.
 
@@ -46,7 +55,7 @@ The accessibility service is only active once you have enabled it yourself in yo
 The following information is created by you and stored only in the app's private storage on your device:
 
 - recorded gesture sequences (positions and timings of taps and swipes);
-- markers: the pixels of the small screen areas you selected, their position and the screen size;
+- markers: the pixels of the small screen areas you selected, their position and the screen size; for a marker made from a suggestion, also the text and the Android id of the item it was made from, or the text read on the screen;
 - lists of markers, names you give to these items, and settings (such as the apps where automatic actions are enabled).
 
 This information is used only to provide the app's features. It is deleted when you delete it in the app, when you clear the app's data, or when you uninstall the app.
@@ -67,6 +76,7 @@ OverScreen can be used for free, with some limits. OverScreen Pro, which lifts t
 
 - **Accessibility service**: described in section 2.
 - **Notifications**: to remind you to enable the service.
+- **Run at startup**: after your device restarts, to set your scheduled actions again. Nothing else runs at startup.
 - **Google Play billing**: lets the Play Store app process the optional purchase (section 5).
 
 ## 7. Children
