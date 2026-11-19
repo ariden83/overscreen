@@ -89,7 +89,7 @@ These pages describe what the app actually does. When the app changes in a way t
 
 - **no Internet permission and no data collected**: if the app ever gets network access, analytics or ads, the privacy policy must be updated before that version is published;
 - **on-device analysis**: the privacy policy and the FAQ say that text recognition and image analysis run entirely on the device, with models bundled in the app and no network, and that their screenshots are discarded; if a model is ever downloaded, or an analysis ever leaves the device, update them (both languages) before that version is published;
-- **legal notice**: the publisher is currently an anonymous non-professional individual; once OverScreen Pro is sold, the publisher becomes a professional and the legal notice must give their real identity.
+- **legal notice**: OverScreen Pro is sold, so the publisher is a professional (French micro-entrepreneur, "EI") and the legal notice gives their real identity, address, SIRET and VAT status; update it (both languages) if any of these change, for example a new address or a switch to VAT.
 
 ## Contact
 

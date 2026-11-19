@@ -8,13 +8,16 @@ title: OverScreen — Legal notice
 
 ## Publisher
 
-This site and the OverScreen app are published by **ariden**, an individual publishing on a non-professional basis.
+This site and the OverScreen app are published by **Adrien Parrochia EI**, a sole trader (French micro-entrepreneur), trading as **ariden**.
 
-In accordance with article 6, III, 2 of French law no. 2004-575 of 21 June 2004 (LCEN), the publisher, a non-professional individual, has chosen to remain anonymous and has provided their identification details to the host.
+- Address: Rue sorin, 93200, Saint-Denis, France
+- SIRET: 13165233100011
+- Registered in the French national business register (Registre national des entreprises, RNE)
+- VAT not applicable, article 293 B of the French General Tax Code
+- Phone: **+33 6 31 56 95 48**
+- Email: **ariden.apps@gmail.com**
 
-Contact: **ariden.apps@gmail.com**
-
-Publication director: ariden.
+Publication director: Adrien Parrochia.
 
 ## Host
 
@@ -24,7 +27,7 @@ GitHub, Inc. (GitHub Pages)
 
 ## Intellectual property
 
-The OverScreen app, its name, its texts and its images are the property of ariden. All rights reserved. Any reproduction without prior written permission is forbidden.
+The OverScreen app, its name, its texts and its images are the property of Adrien Parrochia EI (ariden). All rights reserved. Any reproduction without prior written permission is forbidden.
 
 ## Personal data
 
