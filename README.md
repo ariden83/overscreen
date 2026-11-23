@@ -4,6 +4,8 @@
 
 # <img src="graphics/picto-title.png" alt="" width="50" height="48" align="absbottom">&nbsp;&nbsp;&nbsp;OverScreen
 
+**English** · [Version française](README-fr.md)
+
 **OverScreen** is an Android app by **ariden** that records your taps and swipes and replays them, on demand or automatically when a chosen area of the screen appears. It runs as a small floating panel over your other apps, through an accessibility service.
 
 <p align="center">
@@ -15,16 +17,22 @@
 
 ## What it does
 
-- **Record and replay**: record a series of taps and swipes in an app, then replay it in one tap, in a loop, once, or once each time its marker appears.
+- **Record and replay**: record a series of taps and swipes in an app, then replay it in one tap, in a loop, once, or once each time its marker appears. A stop button stays on screen while it plays.
+- **Floating panel**: the panel runs over your other apps; fold it into a bubble and drag it anywhere. A double tap on the bubble starts watching the app on screen again, without opening the panel.
 - **Markers**: pick any area of the screen, pixel-precise; when it appears, the linked sequence starts. A vertical and a colour tolerance keep it recognised when it moves or changes shade slightly.
 - **Marker suggestions**: when you create a marker, OverScreen can suggest the items to watch. In apps that describe their screen to Android accessibility, it reads their clickable items; in games, **Detect texts** reads the text on the screen with on-device text recognition, and **Detect clickable items** runs an on-device AI image analysis (Pro, about a minute, phones with at least 5 GB of RAM). Both run offline, with models bundled in the app.
 - **Three kinds of markers**: image markers are recognised by their pixels, clickable-item markers by the item's id or text at their place, text markers by their text, read again on the screen; a badge on the thumbnail shows the last two.
-- **Sequence editor**: edit a sequence like a video, with a timeline of gestures.
+- **Lists of markers**: group markers in lists and watch several of them at once; with Pro, several lists per app are watched together.
+- **Sequence editor** (Pro): edit a sequence like a video, with a timeline of its gestures. Add, delete or move gestures, draw curves, set the waits and trim the start or the end; pinch the timeline with two fingers to zoom in on a moment.
+- **Automatic actions** (Pro): watching starts on its own when you open an app.
+- **Scheduled actions** (Pro): a sequence runs on the days and at the times you choose.
+- **Backup** (Pro): export everything to a file and import it back, on a new phone for instance.
 - **One set per app**: sequences and markers belong to the app they were created in.
+- **Help and themes**: an illustrated help in each tab of the panel, a full guide in the main app, and an automatic, colourful, light or dark theme.
 - **Private**: no Internet permission, no account, no data collected. Nothing runs while the phone is locked.
-- **29 languages**: English, French, Spanish, Hindi, Brazilian and European Portuguese, German, Russian, Japanese, Korean, Simplified and Traditional Chinese, Italian, Indonesian, Turkish, Polish, Dutch, Ukrainian, Romanian, Vietnamese, Arabic, Thai, Bengali, Urdu, Malay, Filipino, Tamil, Telugu and Marathi.
+- **29 languages**: English, French, Spanish, Hindi, Brazilian and European Portuguese, German, Russian, Japanese, Korean, Simplified and Traditional Chinese, Italian, Indonesian, Turkish, Polish, Dutch, Ukrainian, Romanian, Vietnamese, Arabic, Thai, Bengali, Urdu, Malay, Filipino, Tamil, Telugu and Marathi; Arabic and Urdu screens read right to left.
 
-The free version offers 3 sequences, 1 marker and one list per app, and creates suggested markers one at a time. **OverScreen Pro**, a one-time purchase through Google Play, lifts these limits and adds sequence editing, automatic actions, backup (export and import), the AI image analysis of games and several suggested markers at once.
+The free version offers 3 sequences, 1 marker and one list per app, and creates suggested markers one at a time. **OverScreen Pro**, a one-time purchase through Google Play, lifts these limits and adds the AI image analysis of games, several suggested markers at once, several lists per app, sequence editing, automatic actions, scheduled actions and backup (export and import).
 
 ## Screenshots
 
