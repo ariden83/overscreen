@@ -22,7 +22,7 @@
 - **Sequence editor**: edit a sequence like a video, with a timeline of gestures.
 - **One set per app**: sequences and markers belong to the app they were created in.
 - **Private**: no Internet permission, no account, no data collected. Nothing runs while the phone is locked.
-- **14 languages**: English, French, Spanish, Hindi, Brazilian Portuguese, German, Russian, Japanese, Korean, Simplified and Traditional Chinese, Italian, Indonesian and Turkish.
+- **29 languages**: English, French, Spanish, Hindi, Brazilian and European Portuguese, German, Russian, Japanese, Korean, Simplified and Traditional Chinese, Italian, Indonesian, Turkish, Polish, Dutch, Ukrainian, Romanian, Vietnamese, Arabic, Thai, Bengali, Urdu, Malay, Filipino, Tamil, Telugu and Marathi.
 
 The free version offers 3 sequences, 1 marker and one list per app, and creates suggested markers one at a time. **OverScreen Pro**, a one-time purchase through Google Play, lifts these limits and adds sequence editing, automatic actions, backup (export and import), the AI image analysis of games and several suggested markers at once.
 
